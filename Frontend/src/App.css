@@ -1,0 +1,215 @@
+/*header*/
+*{
+    font-family: BentonSans-Medium,Arial,Noto Sans,sans-serif;
+
+}
+.header{
+    background-color:black;
+    height:100%;
+    width:100%
+}
+.logo_img{
+    width:150px;
+    height:35px;
+    padding:10px;
+    background-color:black;
+}
+
+/*scorecards home*/
+.score_div{
+    background-color:#8cd;
+    height:300px;
+    width:100vw;
+    display:flex;
+    overflow-y: scroll;
+
+}
+.scorecard_div{
+    border-radius:10px;
+    margin:30px;
+    background-color:white;
+    padding:0px 20px;
+    width:450px;
+    height:230px;
+    
+}
+
+.scorecard_div_match_info{
+    /*background-color:yellow; */
+    height:30px;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+
+    
+}
+li{
+    font-size:small;
+    margin-left:5px;
+    margin-top:20px;
+ 
+}
+li span{
+    margin-left:10px;
+    position: relative;
+    left: -12.5px;
+}
+ul li:first-of-type{
+    margin-left:-22.5px;
+    font-weight:bold;
+}
+ul li:first-child {
+    list-style-type: none; 
+  }
+
+.scorecard_div_team1_score{
+   /* background-color:red; */
+    display:flex;
+    justify-content:space-between;
+}
+/*.scorecard_div_team1_score span{
+    display:inline-block;
+    vertical-align:middle;
+}*/
+.scorecard_div_team1_score span:first-child{
+    margin-left:30px;
+    margin-top:30px;
+    font-weight:bold;
+    font-size:large;
+
+}
+.scorecard_div_team1_score span:nth-of-type(2){
+    margin-right:40px;
+    margin-top:30px;
+    font-weight:bold;
+    font-size:large;
+}
+.scorecard_div_team1_score span img,.scorecard_div_team2_score span img{
+    width:25px;
+    height:25px;
+   
+    object-fit:contain;
+}
+
+.scorecard_div_team2_score{
+   /* background-color:green; */
+    margin-top:10px;
+    display:flex;
+    justify-content:space-between;
+}
+.scorecard_div_team2_score span:first-child{
+    margin-left:30px;
+    font-weight:bold;
+    font-size:large;
+}
+.scorecard_div_team2_score span:nth-of-type(2){
+    margin-right:40px;
+    font-weight:bold;
+    font-size:large;
+}
+.scorecard_div_match_result{
+   /* background-color:grey; */
+    height:40px;
+    margin-top:20px;
+    
+}
+.hr_line{
+    margin-top:0px;
+}
+.scorecard_div_match_result p{
+    margin-left:20px;
+   
+    font-weight:normal
+}
+
+
+
+.scorecard_div_footer{
+   /* background-color:blue; */
+    height:40px;
+    margin-top:25px;
+}
+.scorecard_div_footer ul li{
+    list-style-type:none;
+    font-weight:bold;
+    font-size:x-large;
+    margin-top:-15px;
+}
+.scorecard_div_footer ul li:nth-of-type(2),.scorecard_div_footer ul li:nth-of-type(3),.scorecard_div_footer ul li:nth-of-type(4){
+    margin-left:35px
+}
+.link{
+    color:black;
+    text-decoration:none;
+}
+
+/*scoreboard*/
+.team1_scoreboard_name_header{
+    margin-top:50px;
+    margin-left:200px;
+    height:50px;
+    width:1041px;
+    background-color:rgb(147 197 253/0.5);
+}
+.team1_scoreboard_name_header h2{
+    padding:15px;
+}
+.team1_scoreboard_name_header_2{
+    background-color:#dee4e7;
+    margin-left:200px;
+    padding-left:15px;
+    height:20px;
+    width:850px;
+
+}
+table{
+    margin-left:198px;
+    
+}
+thead tr{
+    background-color:#dee4e7;
+    
+}
+
+thead tr th:first-child{
+    width:390.5px;
+    text-align:left;
+    padding-left:10px;
+}
+thead tr th:nth-child(2){
+    width:390.5px;
+}
+
+thead tr th:not(:first-child):not(:nth-child(2)){
+    width:33.7px;
+}
+tbody tr td:first-child{
+    background-color:lightgreen;    
+}
+tbody tr td{
+    padding:10px;
+    background-color:lightgreen;
+}
+tbody tr td:nth-child(3),tbody tr td:nth-child(4),tbody tr td:nth-child(5),tbody tr td:nth-child(6),tbody tr td:nth-child(7){
+    text-align:right;
+}
+
+.bowling_table tr th:first-child{
+    width:565px;
+}
+.bowling_table tr th:nth-child(2){
+    width:60px;
+}
+
+.bowling_table tr th:not(:nth-child(1)):not(:nth-child(2)){
+    width:60px;
+}
+.bowling_table_over{
+    text-align:right;
+}
+.bowling_table_nb{
+    text-align:right;
+}
+
+
